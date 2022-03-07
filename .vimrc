@@ -6,7 +6,6 @@ set tabstop=4 softtabstop=4
 set shiftwidth=4
 set smartindent
 set nu
-set nowrap
 set smartcase
 set noswapfile 
 set nobackup
@@ -51,3 +50,12 @@ endif
 let g:retrw_browse_split=2
 let g:netrw_banner=0
 let g:netrw_winsize=25
+
+
+let mapleader=" "
+nnoremap <leader>h :wincmd h<CR>
+nnoremap <leader>j :wincmd j<CR>
+nnoremap <leader>k :wincmd k<CR>
+nnoremap <leader>l :wincmd l<CR>
+nnoremap <leader>u :UndotreeShow<CR>
+nnoremap <leader>pv :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>
