@@ -1,6 +1,6 @@
 run
 ```sh
-curl -o- https://raw.githubusercontent.com/Siri-chan/.vim/main/setup.sh | bash
+curl -o- https://raw.githubusercontent.com/Siri-chan/.vim/main/setup.sh | sh
 ```
 note: designed for vim, not nvim lol
 also currently unix only
