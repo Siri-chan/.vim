@@ -1,6 +1,15 @@
-run
+type 
 ```sh
-curl -o- https://raw.githubusercontent.com/Siri-chan/.vim/main/setup.sh | sh
+echo "$SHELL"
+```
+into terminal
+if it says `zsh`, run
+```zsh
+curl -o- https://raw.githubusercontent.com/Siri-chan/.vim/main/setup.zsh | zsh
+```
+if it says `bash`, run
+```bash
+curl -o- https://raw.githubusercontent.com/Siri-chan/.vim/main/setup.bash | bash
 ```
 note: designed for vim, not nvim lol
 also currently unix only
