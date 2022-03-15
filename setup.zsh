@@ -1,7 +1,7 @@
 #!/bin/zsh
 cd $HOME
 touch ~/.vimrc
-echo "source ./.vim/.vimrc" >> ~/.vimrc
+echo "source ~/.vim/.vimrc" >> ~/.vimrc
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | zsh
 zsh
 nvm install --lts
