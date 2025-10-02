@@ -1,3 +1,5 @@
+== THIS IS NO LONGER MAINTAINED OR USED LOL ==
+
 type 
 ```sh
 echo "$SHELL"
